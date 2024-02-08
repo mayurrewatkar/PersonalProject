@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite">
+  <test parallel="classes" thread-count="5" name=" High Priority Test">
+    <classes>
+     
+     
+      <class name="com.saucedemo.TestClasses.VerifyLoginFunctionality"/>
+       <class name="com.saucedemo.TestClasses.VerifyUserAbleToAddMultipleProduct"/>
+     
+     
+      <class name="com.saucedemo.TestClasses.VerifyUserAbleToAddSingleProduct"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
